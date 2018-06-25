@@ -1,0 +1,2 @@
+# magazine
+G-Magazine
