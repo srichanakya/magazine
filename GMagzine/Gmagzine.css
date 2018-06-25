@@ -1,0 +1,136 @@
+html
+{
+	width: 100%;
+	height: 100%;
+}
+
+body
+{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background: url(beach.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.container
+{
+	height: 80%;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
+	padding-top: 20%;
+}
+
+button{
+	background-color: #ffff;
+	border:none;
+	padding: 10px;
+	border-radius: 2px;
+	text-align: center;
+	font-weight: bold;
+	transition: .5s;
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+h1
+{
+	font-family: 'Courgette', cursive;
+
+	padding-bottom: 15px;
+	border-bottom: 1px solid #232323;
+}
+
+/*a{
+	padding-top: 25px;
+}*/
+
+@media screen and (max-width: 768px)
+{
+	.container
+	{
+		height: 70%
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+		padding-top: 30%;
+	}
+
+	h1
+	{
+		font-size: 24px;
+	}
+
+}
+@media screen and (max-width: 1024px)
+{
+
+	.container
+	{
+		height: 70%;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding-top: 30%;
+	}
+	h1
+	{
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 425px)
+{
+	
+	.container
+	{
+		height: 50%;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding-top: 50%;
+	}
+	h1
+	{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 375px)
+{
+	
+	.container
+	{
+		height: 50%;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding-top: 50%;
+	}
+	h1
+	{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 320px)
+{
+	
+	.container
+	{
+		height: 50%;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding-top: 50%;
+	}
+	h1
+	{
+		font-size: 20px;
+	}
+}
